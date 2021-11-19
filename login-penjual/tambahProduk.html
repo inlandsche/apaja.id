@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambah Produk</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/32d261c1ed.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="https://i.ibb.co/0XSppqN/rossi.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/tambahProduk.css">
+</head>
+<body>
+    
+    <main>
+        <div class="contact-section container" id="home">
+            <div class="contact">
+                <span><i class="icon far fa-envelope"></i>contacts@apaja.id</span>
+                <span><i class="icon fas fa-phone-alt"></i>0896 7017 5461</span>
+            </div>
+            <div class="login">
+                <a href="login.html" class="white-a"><i class="icon far fa-user"></i>Login</a>
+                <a href="keranjang.html" class="white-a"><i class="icon fas fa-shopping-cart"></i>Keranjang</a>
+            </div>
+        </div>
+        <div class="navbar-section container">
+            <div class="menu-wrapper">
+                <a href="index.html"><h1 class="logo menu">Apaja.id</h1></a>
+                <span class="menu home"><a href="index.html" class="selected">Home</a></span>
+                <span class="menu"><a href="pemasukan.html">Pemasukan</a></span>
+                <span class="menu"><a href="pesanan1.html" >Pesanan</a></span>
+            </div>
+            <div class="search-wrapper">
+                <input type="text" class="textbox" placeholder="Cari"> 
+                <button class="btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+        <div class="header-section container">
+            <h1>Tambah Produk</h1>
+            <h5>Tambahkan produk anda dan berikan detail produk yang menarik agar dapat menarik perhatian pembeli...!</h5>
+        </div>
+        <div class="main-container">
+        <div class="main-left">
+            <div class="form">
+                <div class="produk"><h4>*Nama Produk</h4></div>
+                <input type="text" class="spinner" placeholder="Nama Produk">
+            </div>
+            <div class="form">
+                <div class="produk"><h4>*Kategori Produk</h4></div>
+                <input type="text" class="spinner" placeholder="Kategori Produk">
+            </div>
+            <div class="form">
+                <div class="produk"><h4>*Material Produk</h4></div>
+                <input type="text" class="spinner" placeholder="Material Produk">
+            </div>
+            <div class="form">
+                <div class="produk"><h4>*Harga Produk</h4></div>
+                <input type="text" class="spinner" placeholder="Harga Produk">
+            </div>
+            <div class="form deskripsi-produk">
+                <div class="produk">
+                    <h4>*Deskripsi Produk</h4>
+                    <p>Deskripsi produk menjelaskan tentang :</p>
+                    <ul>
+                        <li>Detail ukuran produk</li>
+                        <li>Karakteristik model</li>
+                        <li>Disclaimer</li>
+                    </ul>
+                </div>
+                <input type="text" class="spinner spinner-long" placeholder="Deskripsi Produk">
+            </div>
+            <div class="form">
+                <p>*Tidak boleh kosong</p>
+                <input type="button" value="Tambah" class="btn">
+            </div>
+        </div>
+        <div class="main-right">
+            <h4>*Foto Produk</h4>
+            <div class="product-photos-input">
+                <input class="photos-input" id="photos-input-1" type="file" accept="image/*">
+                <label for="photos-input-1">
+                    <i class="fa fa-plus input-label"></i>  
+                </label>
+                <input class="photos-input" id="photos-input-2" type="file" accept="image/*">
+                <label for="photos-input-2">
+                    <i class="fa fa-plus input-label"></i>
+                </label>
+                <input class="photos-input" id="photos-input-3" type="file" accept="image/*">
+                <label for="photos-input-3">
+                    <i class="fa fa-plus input-label"></i>
+                </label>
+                <input class="photos-input" id="photos-input-4" type="file" accept="image/*">
+                <label for="photos-input-4">
+                    <i class="fa fa-plus input-label"></i>
+                </label>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-section container">
+            <h1 class="title">Apaja.id</h1>
+            <input type="email" class="textbox" placeholder="E-Mail">
+            <input type="button" value="Daftar" class="btn">
+            <h4 class="contact-info">Contact info</h4>
+            <h6>Jl. Sinabung No.16, Pisang Candi, Kec.Sukun, Kota Malang, Jawa Timur 65146</h6>
+        </div>
+        <div class="sosmed-section container">
+            <span>© Apaja.id - All Rights Reserved</span>
+    
+            <div class="sosmed">
+                <a href="https://facebook.com/" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://instagram.com/" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://twitter.com/" target="_blank" class="fab fa-twitter"></a>
+            </div>   
+        </div>  
+    </footer>
+</body>
+</html>

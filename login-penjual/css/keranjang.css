@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: #BD4B4B;
+    --dark-blue: #1D3178;
+    --light-grey: #F4F4FC;
+    --grey: #C5CBE3;
+    --grey-2: #F0EFF2;
+    --grey-3 : #A1A8C1;
+    --dark-grey: #474951;
+    --green: #19D16F;
+}
+
+.contact-section{
+    background-color: var(--dark-grey);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+h1, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact > * {
+    margin-right: 3rem;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.login * {
+    margin-left: 3rem;
+}
+
+.navbar-section{
+    background-color: #ffffffdd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 2em;
+    transform: translateY(10%);
+}
+
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.selected {
+    color: var(--red);
+}
+
+.textbox {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 2rem;
+    outline: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.additional-info {
+    margin-top: 1rem;
+    color: #8A91AB;
+}
+
+.btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    height: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: filter 0.3s;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.header-section{
+    background-color: #D8D8D8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10rem;
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.cart-table {
+    border-collapse: collapse;
+    color: var(--dark-blue);
+}
+
+.cart-table tr {
+    height: 8rem;
+    border-bottom: 1px solid var(--grey);
+}
+
+.cart-table td {
+    padding: 0 2.2rem;
+}
+
+.pay{
+    text-align: center;
+}
+
+.pay-title {
+    margin-bottom: 2rem;
+}
+
+.product-desc {
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.product-desc p {
+    color: var(--grey-3);
+}
+
+.product-img {
+    border-radius: 8px;
+    width: 4rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.spinner {
+    background-color: var(--grey-2);
+    border: 1px solid var(--dark-grey);
+    color: var(--dark-grey);
+    line-height: 1.5rem;
+    border-radius: 3px;
+    width: 3rem;
+    padding-left: 0.5rem;
+}
+
+.total{
+    background-color: var(--light-grey);
+    border-radius: 10px;
+    margin-bottom: 10%;
+    padding: 2rem;
+}
+
+.textbox-2 {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--grey);
+    outline: none;
+    transition: border-color 0.1s;
+    line-height: 2rem;
+    width: 100%;
+}
+
+.textbox-2:focus {
+    border-color: var(--green);
+}
+
+.total-table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+
+.total-table td {
+    line-height: 3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.table-bb tr {
+    border-bottom: 2px solid var(--grey);
+}
+
+.total-table .left {
+    text-align: left;
+}
+
+.total-table .right {
+    text-align: right;
+}
+
+.ongkos{
+    background-color: var(--light-grey);
+}
+
+.footer-section{
+    background-color: #D8D8D8;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.contact-info {
+    color: var(--grey-3);
+    line-height: 1.5em;
+    margin-top: 2rem;
+}
+
+.contact-section .icon {
+    margin-right: 0.5em;
+}
+
+.sosmed-section{
+    background-color: var(--dark-grey);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.sosmed * {
+    color: white;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.sosmed *:hover {
+    color: var(--red);
+}
+
+.bg-green {
+    background-color: var(--green);
+    width: 100%;
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
+}
+
+::placeholder {
+    color: var(--grey);
+}

@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --red: #BD4B4B;
+    --light-grey: #F4F4FC;
+    --green: lime;
+}
+
+.white-a {
+    color: white;
+}
+
+.contact-section{
+    background-color: #474951;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.contact-section .icon {
+    margin-right: 0.5em;
+}
+
+h1, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact > * {
+    margin-right: 3rem;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.login * {
+    margin-left: 3rem;
+}
+
+.navbar-section{
+    background-color: #ffffffdd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 2em;
+    transform: translateY(10%);
+}
+
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.selected {
+    color: var(--red);
+}
+
+.textbox {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 2rem;
+    outline: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    height: 2rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    transition: filter 0.3s;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.header-section{
+    display: flex;
+    height: 10rem;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D8D8D8;
+}
+
+.card {
+    width: 20%;
+    text-align: center;
+    background-color:#F4F4FC;
+    border-radius: 10px;
+    margin: 0 1rem;
+    padding: 1rem 0;
+}
+
+.card img {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.card-text {
+    color: brown;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+}
+
+.greetings{
+    
+}
+
+.info-section{
+
+}
+
+.kemeja{
+    
+
+}
+
+.celana{
+
+}
+
+.sepatu{
+
+}
+
+.aksesoris{
+
+}
+
+.footer-section{
+    background-color: #D8D8D8;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title {
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.sosmed-section{
+    background-color: #474951;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.sosmed * {
+    color: white;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.sosmed *:hover {
+    color: var(--red);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
+}

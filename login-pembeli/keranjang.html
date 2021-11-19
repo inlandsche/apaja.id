@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/32d261c1ed.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="https://i.ibb.co/0XSppqN/rossi.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/keranjang.css">
+    <title>Keranjang</title>
+</head>
+<body>
+    <div class="contact-section container">
+        <div class="contact">
+            <span><i class="icon far fa-envelope"></i>contacts@apaja.id</span>
+            <span><i class="icon fas fa-phone-alt"></i>0896 7017 5461</span>
+        </div>
+        <div class="login">
+            <span><i class="icon far fa-user"></i>Login</span>
+            <span><i class="icon fas fa-shopping-cart"></i>Keranjang</span>
+        </div>
+    </div>
+    <div class="navbar-section container">
+        <div class="menu-wrapper">
+            <h1 class="logo menu">Apaja.id</h1>
+            <span class="menu"><a href="index.html">Home</a></span>
+            <span class="menu"><a href="index.html#trending">Trending</a></span>
+            <span class="menu"><a href="index.html#terbaru">Terbaru</a></span>
+            <span class="menu"><a href="katalog.html">Katalog</a></span>
+        </div>
+        <div class="search-wrapper">
+            <input type="text" class="textbox" placeholder="Cari"> 
+            <button class="btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <div class="header-section container">
+        <h1 c>Keranjang</h1>
+        <h5>Home/<span class="selected">Shopping Cart</span></h5>
+    </div>
+    <div class="info-section container">
+        <div class="cart">
+            <table class="cart-table">
+                <tr>
+                    <th><h3>Produk</h3></th>
+                    <th><h3>Harga</h3></th>
+                    <th><h3>Kuantitas</h3></th>
+                    <th><h3>Total</h3></th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://spaces.ilfen.co/assets/image/produk/Reg_Black_1.jpeg" class="product-img">
+                        <div class="product-desc">
+                            <h3>Basic Shirt Black</h3>
+                            <p>Color: Black</p>
+                            <p>Size: L</p>
+                        </div>
+                    </td>
+                    <td>Rp199.000</td>
+                    <td><input type="number" class="spinner" value=1></td>
+                    <td>Rp199.000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://spaces.ilfen.co/assets/image/produk/025DADCB-693B-4113-A700-AC48043D21CA.jpeg" class="product-img">
+                        <div class="product-desc">
+                            <h3>Peazy Pants Black</h3>
+                            <p>Color: Black</p>
+                            <p>Size: XL</p>
+                        </div>
+                    </td>
+                    <td>Rp249.000</td>
+                    <td><input type="number" class="spinner" value=1></td>
+                    <td>Rp249.000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://spaces.ilfen.co/assets/image/produk/71D287C7-308D-4951-B106-2DCE045E6A3B.jpeg" class="product-img">
+                        <div class="product-desc">
+                            <h3>Compfy Jacket White</h3>
+                            <p>Color: White</p>
+                            <p>Size: XL</p>
+                        </div>
+                    </td>
+                    <td>Rp225.000</td>
+                    <td><input type="number" class="spinner" value=1></td>
+                    <td>Rp225.000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://spaces.ilfen.co/assets/image/produk/2CDC76F2-293E-444C-AD56-1176DC0182C4.jpeg" class="product-img">
+                        <div class="product-desc">
+                            <h3>Trucker Jacket Caramel</h3>
+                            <p>Color: Caramel</p>
+                            <p>Size: XL</p>
+                        </div>
+                    </td>
+                    <td>Rp225.000</td>
+                    <td><input type="number" class="spinner" value=1></td>
+                    <td>Rp225.000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="pay">
+            <h3 class="pay-title">Total Keranjang</h3>
+            <div class="total">
+                <table class="total-table table-bb">
+                    <tr>
+                        <td class="left">Subtotal:</td>
+                        <td class="right">Rp898.000</td>
+                    </tr>
+                    <tr>
+                        <td class="left">Total:</td>
+                        <td class="right">Rp948.000</td>
+                    </tr>
+                </table>
+                <h6 class="additional-info">Total merupakan jumlah harga yang harus dibayar setelah terhitung biaya ongkir</h6>
+                <input type="button" value="Lanjut ke Checkout" class="btn bg-green mt-15">
+            </div>
+            <h3 class="pay-title">Hitung Ongkos Kirim</h3>
+            <div class="total">
+                <table class="total-table">
+                    <tr>
+                        <td><input type="text" placeholder="Kota" class="textbox-2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Kecamatan" class="textbox-2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Kode Pos" class="textbox-2"></td>
+                    </tr>
+                </table>
+                <input type="button" value="Hitung Ongkir" class="btn mt-15">
+            </div>
+        </div>
+    </div>
+    <div class="footer-section container">
+        <h1 class="title">Apaja.id</h1>
+        <input type="email" class="textbox" placeholder="E-Mail">
+        <input type="button" value="Daftar" class="btn">
+        <div class="contact-info">
+            <h4>Contact info</h4>
+            <h6>Jl. Sinabung No.16, Pisang Candi, Kec.Sukun, Kota Malang, Jawa Timur 65146</h6>
+        </div>
+    </div>
+    <div class="sosmed-section container">
+        <span>© Apaja.id - All Rights Reserved</span>
+
+        <div class="sosmed">
+            <a href="https://facebook.com/" target="_blank" class="fab fa-facebook"></a>
+            <a href="https://instagram.com/" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://twitter.com/" target="_blank" class="fab fa-twitter"></a>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg-gray {
+    background-color: #ddd;
+}
+
+.text-gray {
+    color: #ddd;
+}
+
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+    display: inline;
+}
+
+.contact-section{
+    background-color: #474951;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.contact-section .icon {
+    margin-right: 0.5em;
+}
+
+.contact-section a{
+    color: white;
+    text-decoration: none;
+}

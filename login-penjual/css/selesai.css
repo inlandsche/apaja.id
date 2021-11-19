@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.col a, .pesanan > *{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root {
+    --red: #BD4B4B;
+    --dark-blue: #1D3178;
+    --light-grey: #F4F4FC;
+    --grey: #C5CBE3;
+    --grey-2: #F0EFF2;
+    --grey-3 : #A1A8C1;
+    --dark-grey: #474951;
+    --green: #19D16F;
+}
+
+.container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.contact-section{
+    background-color: #474951;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.contact-section .icon {
+    margin-right: 0.5em;
+}
+
+h1, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contact > *{
+    margin-right: 3rem;
+}
+
+.login * {
+    margin-left: 3rem;
+}
+
+.contact-section a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-section{
+    background-color: #ffffffdd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.navbar-section a {
+    color: black;
+    text-decoration: none;
+}
+
+.logo{
+    font-size: 2em;
+    transform: translateY(10%);
+}
+
+.menu {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.selected {
+    color: var(--red);
+}
+
+span .selected {
+    color: var(--red);
+}
+
+.textbox {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 2rem;
+    outline: none;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.additional-info {
+    margin-top: 1rem;
+    color: #8A91AB;
+}
+
+.btn {
+    background-color: var(--red);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    height: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    transition: filter 0.3s;
+}
+
+.btn:hover {
+    filter: brightness(1.1);
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+h1, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.footer-section{
+    background-color: #D8D8D8;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer-section h6 {
+    color: var(--grey-3);
+}
+
+.title {
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.contact-info {
+    color: var(--grey-3);
+    line-height: 1.5em;
+    margin-top: 2rem;
+}
+
+.contact-section .icon {
+    margin-right: 0.5em;
+}
+
+.sosmed-section{
+    background-color: var(--dark-grey);
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.sosmed * {
+    color: white;
+    cursor: pointer;
+    margin-left: 0.6rem;
+    text-decoration: none;
+    transition: color 0.1s;
+}
+
+.sosmed *:hover {
+    color: var(--red);
+}
+
+.bg-green {
+    background-color: var(--green);
+    width: 100%;
+}
+
+.mt-15 {
+    margin-top: 1.5rem;
+}
+
+::placeholder {
+    color: var(--grey);
+}
+   
+
+/*End of navbar and footer styling*/
+
+.pesanan {
+    margin: 7vh 15vh;
+}
+
+/*Header atas*/
+.triple-column {
+    display: flex;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    align-items: center;
+    height: 10vh;
+}
+
+.col {
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+}
+
+.col a {
+    text-decoration: none;
+    color: black;
+}
+
+.col1 {
+    border-right: 1px solid black;
+}
+
+.col2 {
+    border-right: 1px solid black;
+}
+
+.col3 a {
+    color: var(--red);
+}
+
+
+/*Pesanan*/
+
+.no-pesanan-resi {
+    font-weight: 900;
+    margin: 1.2rem 0;
+}
+
+
+/*CART*/
+.cart-table {
+    border-collapse: collapse;
+    color: var(--dark-blue);
+    width: 100%;
+}
+
+.cart-table tr {
+    /* height: 8rem; */
+    border-bottom: 1px solid var(--grey);    
+}
+
+.cart-table td {
+    /* padding: 0 2.2rem; */
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.product {
+    text-align: left !important;
+}
+
+.product-desc {
+    display: inline-block;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.product-desc p {
+    color: var(--grey-3);
+}
+
+.product-img {
+    border-radius: 8px;
+    width: 4rem;
+    margin-right: 1rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table * {
+    text-align: center;
+    line-height: 3em;
+    font-family: 'Josefin Sans';
+    color: #1D3178;
+}
+
+.content-section table tr:not(:last-child) {
+    border-bottom: 1px solid #E1E1E4;
+}
+
+th {
+    font-size: 1.2em;
+}
+
+.content-section {
+    margin: 4em 0;
+}
